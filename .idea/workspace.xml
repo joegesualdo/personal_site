@@ -4,6 +4,7 @@
     <list default="true" id="a2cef5cf-7142-4e9c-93c2-87883a7e8da6" name="Default" comment="" />
     <ignored path="personal_site.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/.gitignore" changelist="a2cef5cf-7142-4e9c-93c2-87883a7e8da6" time="1376094708227" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="34" selection-start="326" selection-end="326" vertical-scroll-proportion="0.33070865">
+            <state line="38" column="49" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="9" selection-start="448" selection-end="448" vertical-scroll-proportion="0.42519686">
               <folding />
             </state>
           </provider>
@@ -54,6 +64,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -503,7 +514,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="34" selection-start="326" selection-end="326" vertical-scroll-proportion="0.33070865">
+        <state line="38" column="49" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="9" selection-start="448" selection-end="448" vertical-scroll-proportion="0.42519686">
           <folding />
         </state>
       </provider>
