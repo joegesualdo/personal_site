@@ -1,3 +1,40 @@
-// Place all the styles related to the content controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+$box_color: black;
+#homepage {
+  height: 100%;
+  .wrapper_left{
+    height: 100%;
+    background-color: #4ad391;
+    margin: 0;
+    padding: 0;
+    .content_left{
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+      font-weight: 100;
+      margin-top: 50%;
+      .name{
+        font-size: 2em;
+      }
+    }
+  }
+  .wrapper_right{
+    height: 100%;
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+    }
+
+  .box{
+    height: 25%;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    .content{
+      background-color:#16528e;
+      height: 97%;
+    }
+  }
+}
+
