@@ -1,5 +1,5 @@
 PersonalSite::Application.routes.draw do
-  get "content/home"
+  root to: 'content#home'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
