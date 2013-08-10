@@ -14,6 +14,6 @@
 /log/*.log
 /tmp
 
+# Ignore idea and DS_store
 .idea/
-
 .DS_Store
