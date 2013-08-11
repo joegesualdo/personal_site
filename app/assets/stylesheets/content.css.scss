@@ -1,28 +1,148 @@
+$black: #2a2a2a;
+$gray: #3a3a3a;
+
+$gray-header: #f2f2f2;
+$gray-content: #999;
+
+$light-green: #7fe35e;
+$aqua: #07b196;
+$orange: #f27e3e;
+$red: #ff5c57;
+$blue: #4aa0be;
+$yellow: #f9c732;
+$baby-blue: #b3e1ff;
+
 $box_color: black;
+
+.light-green{
+  color: $light-green;
+}
+.aqua{
+  color: $aqua;
+}
+.orange{
+  color: $orange;
+}
+.red{
+  color: $red;
+}
+.yellow{
+  color: $yellow
+}
+.blue{
+  color: $blue;
+}
+.baby_blue{
+ color: $baby-blue;
+}
 #homepage {
+  .hire{
+    font-size: 1.5em;
+    position: fixed;
+    bottom: 1em;
+    right: 0;
+    font-weight: 700;
+    background: #f66;
+    z-index: 100000;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    a{
+      color: #fff;
+      display: inline-block;
+      padding: .25em 1em;
+    }
+  }
   .splash{
-    height: 992px;
-    background-color: #222228;
-    .intro{
-        position: relative;
-        top: 10%;
+    height: 600px;
+    .splash_content{
+      padding-top: 100px;
+      .intro{
         color: white;
-        font-weight: 100;
-        font-size: 3em;
-      .name{
-        background-color: #ff5c57;
-        padding: 0 3px;
+        font-size: 2em;
+        .name{
+          background-color: $red;
+          padding: 0 3px;
+        }
+        .hacker {
+          background-color: $yellow;
+          padding: 0 3px;
+        }
+        .entrepreneur{
+          background-color: $blue;
+          padding: 0 3px;
+        }
       }
-      .hacker {
-        background-color: #4aa0be;
-        padding: 0 3px;
-      }
-      .adventurer{
-        background-color: #f9c732;
-        padding: 0 3px;
-      }
+    .social_links{
+      padding-top: 50px;
+    }
+    }
+  }
+  article{
+    h1,h2,h3,h4,h5,h6{
+      color: $gray-header;
+    }
+    color: $gray-content;
+    background-color:$gray;
+    margin: 1%;
+    padding: 1px 10px;
+    &.about{
+      border-top: solid 10px;
+      border-top-color: $baby-blue;
+    }
+    &.tech_skills{
+      border-top: solid 10px;
+      border-top-color: $light-green;
+    }
+    &.experience{
+      border-top: solid 10px;
+      border-top-color: $yellow;
     }
   }
 
+  section{
+      margin-top: 10px 0px;
+  }
+
+  .tech_skills{
+    font-size: 2em;
+    color: white;
+    span{
+      padding: 3px;
+    }
+  }
+
+}
+
+//########### Swipe.js specific css #########
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+
+.picturetext{
+  padding-left: 100px;
+}
+// Don't display at widths higher than ipda
+#slider{
+  display: none;
+}
+
+// Dispay at width lower than 768
+@media only screen
+and (max-width : 768px){
+#slider{
+   display: block;
+}
 }
 

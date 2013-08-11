@@ -1,14 +1,99 @@
 #homepage
-  .row
-    .splash.col-12
-      .intro
+  .hire
+    = link_to "For Hire", '#'
+
+  .splash
+    .splash_content.row
+      .intro.col-12
         %p.center
           Hi, I'm
           %span.name Joe
-          a
-          %span.hacker hacker
+          an
+          %span.entrepreneur entrepreneur
           &
-          %span.adventurer adventurer
+          %span.hacker hacker
+      .social_links.col-12
+        .center
+          = link_to image_tag('http://pushling.com/images/icons/github_icon.png'), 'https://github.com/joegesualdo'
+          = link_to image_tag('http://pushling.com/images/icons/facebook_icon.png'), 'https://www.facebook.com/joepatrickgesualdo'
+          = link_to image_tag('http://pushling.com/images/icons/linkedin_icon.png'), 'http://www.linkedin.com/in/joegesualdo'
+          = link_to image_tag('http://images.talkingphonebook.com/images/localedge/icons/Black-Twitter.png'), 'https://twitter.com/joegesualdo'
+  %section.middle.row
+    %article.about.col-lg-6
+      %h2 About me
+      %p
+        I’m a New York based Rails developer and entrepreneur with a passion and desire to build products
+        that are extraordinary and lasting. My experience and interests are broad but my core talents are
+        in design, development and implementation of web applications.
+    %article.experience.col-lg-5
+      %h2 Developer
+      %p
+        I love to code and love the internet. My specialties lie in the development of "full stack" web
+        frameworks. This includes everything from user-experience to database and all that lies between.
+    %article.entrepreneur.col-lg-7
+      %h2 Entrepreneur
+
+      %p
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+        laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+        in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+        vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+        dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil
+        imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est
+        usus legentis in iis qui facit eorum claritatem.e
+
+    %article.tech_skills.col-lg-4
+      %h2 Technical Skills
+      %span.blue Frameworks:
+      Ruby on Rails, Backbone.js, Twitter Bootstrap.
+      %span.yellow Front-end:
+      HTML, HAML, CSS, SASS, Javascipt, Coffescript, JQUERY, AJAX, Responsive design.
+      %span.aqua Version Control:
+      Git.
+      %span.red TDD:
+      RSpec, Capybara, Guard.
+      %span.orange Deployment:
+      Heroku.
+
+
+
+
+
+
+
+
+
+
+-#      #slider.swipe
+-#        .swipe-wrap
+-#          %div.row
+-#            %image{src: 'http://myhomespree.com/assets/favicon.png', class: 'col-12'}
+-#            .picturetext.col-6.col-sm-12.col-lg-6
+-#
+-#          %div
+-#            %image{src: 'http://myhomespree.com/assets/favicon.png', class: 'col-12'}
+-#            .picturetext.col-6.col-sm-12.col-lg-6
+-#
+-#          %div
+-#            %image{src: 'http://myhomespree.com/assets/favicon.png', class: 'col-12'}
+-#            .picturetext.col-6.col-sm-12.col-lg-6
+-#
+-#
+-#-# JS for Slide. Needs to be on same page as view
+-#:javascript
+-#  window.mySwipe = new Swipe(document.getElementById('slider'), {
+-#    startSlide: 1,
+-#    speed: 400,
+-#    auto: 7000,
+-#    continuous: true,
+-#    disableScroll: false,
+-#    stopPropagation: false,
+-#    callback: function(index, elem) {},
+-#    transitionEnd: function(index, elem) {}
+-#  });
+-#
+
 
 
 

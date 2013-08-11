@@ -1,13 +1,45 @@
+$black: #2a2a2a;
+$gray: #3a3a3a;
+
+$gray-header: #f2f2f2;
+$gray-content: #999;
+
+$light-green: #7fe35e;
+$aqua: #07b196;
+$orange: #f27e3e;
+$red: #ff5c57;
+$yellow: #4aa0be;
+$blue: #f9c732;
+$baby-blue: #b3e1ff;
+
 html{
   height: 100%;
   border-top: solid 10px;
   border-top-color: #02DAAF;
+  font-weight: 100;
 }
 
 body{
+  background-color: $black;
   height: 100%;
 }
 
 .center{
   text-align: center;
+}
+
+// Text size
+p{
+  font-size: 1.5em;
+  letter-spacing:1.5px
+}
+
+h1{
+  font-weight: 100px;
+  letter-spacing:1.5px
+
+}
+
+li{
+  font-size: 1.5em;
 }
