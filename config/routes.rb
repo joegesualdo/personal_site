@@ -1,6 +1,8 @@
 PersonalSite::Application.routes.draw do
   root to: 'content#home'
 
+  match '/resume', to: 'content#resume'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

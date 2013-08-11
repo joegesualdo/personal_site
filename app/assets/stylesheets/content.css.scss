@@ -36,6 +36,7 @@ $box_color: black;
  color: $baby-blue;
 }
 #homepage {
+  padding-bottom: 40px;
   .hire{
     font-size: 1.5em;
     position: fixed;
@@ -102,6 +103,51 @@ $box_color: black;
 
   section{
       margin-top: 10px 0px;
+  }
+
+  .tech_skills{
+    font-size: 2em;
+    color: white;
+    span{
+      padding: 3px;
+    }
+  }
+
+}
+
+#resume{
+  article{
+    h1,h2,h3,h4,h5,h6{
+      color: $gray-header;
+    }
+    color: $gray-content;
+    background-color:$gray;
+    margin: 1%;
+    padding: 1px 10px;
+    &.objective{
+      border-top: solid 10px;
+      border-top-color: $baby-blue;
+    }
+    &.company_type{
+      border-top: solid 10px;
+      border-top-color: $light-green;
+    }
+    &.education{
+      border-top: solid 10px;
+      border-top-color: $aqua;
+    }
+    &.experience{
+      border-top: solid 10px;
+      border-top-color: $yellow;
+    }
+    &.tech_skills{
+      border-top: solid 10px;
+      border-top-color: $red;
+    }
+  }
+
+  section{
+    margin-top: 10px 0px;
   }
 
   .tech_skills{
