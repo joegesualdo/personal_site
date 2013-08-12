@@ -36,11 +36,10 @@ $box_color: black;
  color: $baby-blue;
 }
 #homepage {
-  padding-bottom: 40px;
   .hire{
     font-size: 1.5em;
     position: fixed;
-    bottom: 1em;
+    bottom: 6em;
     right: 0;
     font-weight: 700;
     background: #f66;
@@ -111,7 +110,7 @@ $box_color: black;
   }
 
   .tech_skills{
-    font-size: 2em;
+    font-size: 1.5em;
     color: white;
     span{
       padding: 3px;
@@ -156,7 +155,7 @@ $box_color: black;
   }
 
   .tech_skills{
-    font-size: 2em;
+    font-size: 1.5em;
     color: white;
     span{
       padding: 3px;
@@ -164,6 +163,7 @@ $box_color: black;
   }
 
 }
+
 
 //########### Swipe.js specific css #########
 .swipe {
@@ -195,5 +195,26 @@ and (max-width : 768px){
 #slider{
    display: block;
 }
+}
+
+
+//### FOOTER#####
+footer{
+  font-size: 1.5em;
+  .wrapper{
+    padding: 10px;
+    background-color: #fff;
+    background-image: url('tweed_@2X.png');
+    color: black;
+    font-weight: 200;
+    a{
+      font-weight: 100;
+      color: white;
+      text-decoration: none;
+      &:hover{
+        color: gray;
+      }
+    }
+  }
 }
 
