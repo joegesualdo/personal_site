@@ -1,7 +1,9 @@
 class ContentController < ApplicationController
-  def home
-  end
-  def resume
 
+
+  def resume
+  end
+
+  def home
   end
 end
